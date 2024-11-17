@@ -1,0 +1,79 @@
+body {
+    color: black;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 4px solid #333;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-buttons button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+    background-color: #444;
+}
+
+/* Accounts Section */
+.accounts-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accounts-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Accounts Table */
+.accounts-table-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.accounts-table {
+    width: 1
+}

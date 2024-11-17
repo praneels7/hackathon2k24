@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finsure</title>
+    <link rel="stylesheet" href="index_styles.css">
+</head>
+<body style="background-color:rgb(255, 255, 255);">
+    <div class="container">
+        <!-- Navigation Section -->
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="logo-wrapper">
+                    <a href="index.html">
+                        <img src="name.png" width="200" height="50" alt="Finsure">
+                    </a>
+                </div>
+                <div class="nav-buttons">
+                    <button onclick="window.location.href = 'checking.html';">Checking</button>
+                    <button onclick="window.location.href = 'savings.html';">Savings</button>
+                    <button onclick="window.location.href = 'credit_cards.html';">Credit Cards</button>
+                    <button onclick="window.location.href = 'investing.html';">Investing</button>
+                    <button onclick="window.location.href = 'scheduler.html';">Contact Us</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="main-content">
+            <!-- Scheduler Form -->
+            <div class="login-form">
+                <h2>Schedule a Meeting</h2>
+                
+                <div class="input-box">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="Enter your first name" required>
+                </div>
+                
+                <div class="input-box">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Enter your last name" required>
+                </div>
+                
+                <div class="input-box">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                </div>
+                
+                <div class="input-box">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                </div>
+                
+                <div class="input-box">
+                    <label for="meeting-date">Meeting Date</label>
+                    <input type="date" id="meeting-date" required>
+                </div>
+                
+                <div class="input-box">
+                    <label for="meeting-time">Meeting Time</label>
+                    <input type="time" id="meeting-time" required>
+                </div>
+
+                <button class="button">Schedule</button>
+            </div>
+
+            <!-- Info Section (Optional) -->
+            <div class="about-us">
+                <h2>Provide your contact details and choose a preferred date and time for the meeting.</h2>
+                    <h2> We will contact you with a time that works for you and us!</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 4px solid #333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+    background-color: #444;
+}
+
+.investing-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.investing-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.investing-card:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.investing-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.investing-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.investing-card ul {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.investing-card ul li {
+    margin: 5px 0;
+}
+
+/* Button Styling for Consistency */
+.investing-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 0; /* Adjusted padding for uniformity */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Ensures buttons are the same width */
+    margin-top: 15px; /* Adds space above each button */
+}
+
+.investing-card button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .investing-options {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .investing-card {
+        width: 80%;
+    }
+}

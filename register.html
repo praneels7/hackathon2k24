@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finsure</title>
+    <link rel="stylesheet" href="index_styles.css">
+</head>
+<body style="background-color:rgb(255, 255, 255);">
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="logo-wrapper">
+                    <a href="index.html">
+                        <img src="name.png" width="200" height="50" alt="Finsure">
+                    </a>
+                </div>
+                <div class="nav-buttons">
+                    <button onclick="window.location.href = 'checking.html';">Checking</button>
+                    <button onclick="window.location.href = 'savings.html';">Savings</button>
+                    <button onclick="window.location.href = 'credit_cards.html';">Credit Cards</button>
+                    <button onclick="window.location.href = 'investing.html';">Investing</button>
+                    <button onclick="window.location.href = 'scheduler.html';">Contact Us</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="login-form">
+                <form>
+                    <h1>Register</h1>
+
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" required>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="date-of-birth">Date of Birth</label>
+                        <input type="date" id="date-of-birth" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <input type="text" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+                    
+                    <button type="button" class="button" onclick="window.location.href = 'index.html';">Register</button>
+                    <p>Already have an account? <a href="index.html">Login</a></p>
+                </form>
+            </div>
+            
+            <div class="about-us">
+                <img src="finSure.png" class="about-img" alt="FinSure">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

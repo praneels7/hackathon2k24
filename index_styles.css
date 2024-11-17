@@ -1,0 +1,146 @@
+/* General Styling */
+body {
+    color: black;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 4px solid #333;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.login-link {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+    background-color: #444;
+}
+
+/* Main Content Styling */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.input-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #444;
+}
+
+/* Remember and Forgot Password Links */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-forgot a {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* About Us Section */
+.about-us {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+}
+
+.about-img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-img:hover {
+    transform: scale(1.05);
+}

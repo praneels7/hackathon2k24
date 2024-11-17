@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finsure</title>
+    <link rel="stylesheet" href="index_styles.css">
+</head>
+<body style="background-color:rgb(255, 255, 255);">
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="logo-wrapper">
+                    <a href="index.html">
+                        <img src="name.png" width="200" height="50" alt="Finsure">
+                    </a>
+                </div>
+                <div class="nav-buttons">
+                    <button onclick="window.location.href = 'checking.html';">Checking</button>
+                    <button onclick="window.location.href = 'savings.html';">Savings</button>
+                    <button onclick="window.location.href = 'credit_cards.html';">Credit Cards</button>
+                    <button onclick="window.location.href = 'investing.html';">Investing</button>
+                    <button onclick="window.location.href = 'scheduler.html';">Contact Us</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="login-form">
+                <form action="accounts.html" method="get">
+                    <h1>Login</h1>
+
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" name="username" required>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="button">Login</button>
+                    <p><a href="register.html">Not Enrolled? Sign Up Now</a></p>
+                </form>
+            </div>
+
+            <div class="about-us">
+                <img src="finSure.png" class="about-img" alt="FinSure">
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <h1></h1>
+        </div>
+    </div>
+</body>
+</html>
